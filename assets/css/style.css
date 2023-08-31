@@ -515,6 +515,80 @@ body{
     /* letter-spacing: 2px; */
   }
 
+  /* ===================== */
+  /* ===================== */
+
+  /* contact us */
+
+  /* ===================== */
+  /* ===================== */
+
+
+  .contactus-section{
+    padding: 50px  0;
+  }
+
+  .form_cc_four {
+    border-radius: 8px;
+    border: 1px solid #dfe4e7;
+    padding: 2.5rem;
+}
+
+
+.contact-info{
+    /* width:fit-content */
+}
+
+.c-info-icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 0.70rem  0.20rem 0.0rem;
+  line-height: 27px;
+    font-size: 20px;
+}
+
+.form_cc_four.bg_dark .form-control, .form_cc_four.bg_dark input {
+  background-color: rgba(255,255,255,.192)!important;
+  border: none!important;
+  color: #fff!important;
+}
+
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], select, textarea {
+  background: #fff;
+  color: #232226;
+  border: 1px solid #e2e4e9;
+  width: 100%;
+  padding: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: inherit;
+  border-radius: 4px;
+  position: relative;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 7px 9px rgba(29,14,98,.05);
+  box-shadow: 0 7px 9px rgba(29,14,98,.05);
+  -webkit-transition: all cubic-bezier(0.4,0,.2,1) .4s;
+  transition: all cubic-bezier(0.4,0,.2,1) .4s;
+  outline: 0;
+}
+
+
+.form_cc_four .btn-primary{
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+
+
+.form_cc_four input[type=email]:focus, input[type=text]:focus, textarea:focus{
+  outline: none !important;
+  border-color: none !important;
+  box-shadow:none !important;
+}
+
+  
 
 /* ================== */
 /* ================== */
