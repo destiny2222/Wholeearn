@@ -512,7 +512,7 @@ body{
     font-style: normal;
     font-weight: 400;
     text-align: justify;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
   }
 
 
@@ -728,7 +728,13 @@ body{
         border-bottom: 2px solid var(--primary-color);
         box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) ;
       }
-    
+      .page-head{
+        height: 20vh;
+      }
+
+      .breadcrumbs {
+        padding-top: 12%;
+    }
 }
 
 
