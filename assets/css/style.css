@@ -685,6 +685,10 @@ input[type=email], input[type=number], input[type=password], input[type=tel], in
   
 }
 
+section,header{
+  overflow: hidden !important;
+}
+
 /* for mobile devices: 320px - 480px */
 /* for Tablet or ipad: 480px - 768px */
 /* for laptop or small-size screen: 768px - 1024px */
@@ -699,6 +703,8 @@ input[type=email], input[type=number], input[type=password], input[type=tel], in
     inline-size: 350px;
   }
 }
+
+
 
 /* Additional styles for larger screens */
 @media (min-width: 768px) {
@@ -758,6 +764,8 @@ input[type=email], input[type=number], input[type=password], input[type=tel], in
     padding: 14px 50px 11px 15px;
   }
 }
+
+
 
 @media only screen and (max-device-width:480px) {
       .hamburger{
