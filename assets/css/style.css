@@ -878,9 +878,9 @@ section,header{
 
 
 
-@media screen and (max-width: 375px),(max-width:280px) {
+@media screen and (max-width: 375px) {
   .mobile-menu {
-    top: 16% !important;
+    top: 14% !important;
   }
 }
 
@@ -890,11 +890,11 @@ section,header{
   }
 }
 
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 280px) {
   .mobile-menu{
-    top: 20% !important;
+    top: 16% !important;
   }
-} */
+}
 
 
 
