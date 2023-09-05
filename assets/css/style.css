@@ -778,7 +778,7 @@ section,header{
 @media only screen and (max-device-width:480px) {
       .header-menu{
         background-color: var(--black-color);
-        box-shadow: 0 8px 8px 4px rgb(0, 0, 0);
+        box-shadow: 0 5px 5px 2px rgb(0, 0, 0);
       }
       .hamburger{
         display: block;
