@@ -119,6 +119,14 @@ body{
 }
 
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 222;
+  background-color: var(--black-color);
+}
+
 
 .mobile-menu{
   visibility: hidden;
@@ -768,13 +776,17 @@ section,header{
 
 
 @media only screen and (max-device-width:480px) {
+      .header-menu{
+        background-color: var(--black-color);
+        box-shadow: 0 8px 8px 4px rgb(0, 0, 0);
+      }
       .hamburger{
         display: block;
       }
       .mobile-menu {
         position: fixed;
         left: 0;
-        top: 0;
+        top: 19%;
         right: 0;
         bottom: 0;
         min-height: 100vh;
@@ -786,8 +798,8 @@ section,header{
         -webkit-overflow-scrolling: touch;
         visibility: hidden;
         opacity: 0;
-        width: 64%;
-        transform: translateZ(-100%);
+        width: 100%;
+        transform: translateY(100%);
         transition: visibility 0s, opacity .3s;
         -webkit-transition: 1.5s ease-in-out;
         transition: 1.5s ease-in-out;
@@ -807,9 +819,9 @@ section,header{
       }
 
       .mobile-menu ul li{
-        padding: 21px  0px 20px 10px;
+        padding:30px  0px 20px 19px;
         border-bottom: 2px solid var(--primary-color);
-        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) ;
+        /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) ; */
       }
       .page-head{
         height: 20vh;
